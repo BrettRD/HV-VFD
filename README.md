@@ -18,7 +18,7 @@ I expect this project to branch for different IGBT sizes.
 
 ### FET Drivers
 The FET drivers need an estimated 6A to reach 400A IGBTs  
-* list of candidate parts
+Currently designing around the 1EDI60H12AH by infineon
 
 ### Desaturation detector / phase shunt monitor
 Depending on the required bandwidth for the phase shunts, a PWM based isolation amp like the IRF2277 might suffice.  
