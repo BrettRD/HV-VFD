@@ -40,6 +40,7 @@ VESC5 looks like using phase shunts. Using isolation amps, this design could be 
 ### Crazy shit not yet dismissed:
 * FPGA gate handling logic (iCE40 with yosys)  
   This allows us to do interesting things to the gate drive signals like configurable dead-time/overlap, spike quenching, fast ADCs and thermal modelling of FET junctions.
+  Upgrading to the STM32F405VG (100pin pack) offers a 16b wide 80MHz DMA bus.
 * ADCs on traction side of isolation barrier.  
   Saves on isolation amplifiers and noise.  
-  May actually increase bandwidth.
+  The STM32F4 has a really nice ADC architecture with custom triggers, DMA, and 12b 6MS/s over 24 channels.
